@@ -8,7 +8,9 @@ class Usuarios extends CI_Controller{
         parent::__construct();
     }
 public function index() {
-    $data = array(        
+    $data = array(      
+        
+        'titulo' => 'Usuários cadastrados',
 
 'styles' => array(
     'vendor/datatables/dataTables.bootstrap4.min.css',
